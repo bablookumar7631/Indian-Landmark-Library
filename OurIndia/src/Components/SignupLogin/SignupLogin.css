@@ -1,0 +1,77 @@
+.loginSignup{
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7.5rem;
+}
+
+.loginMargin{
+    margin-bottom: 13.1rem;
+}
+.auth-head{
+    margin-bottom: 1.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-inner{
+    width: 40%;
+    background-color: #92a7a59e;
+    border-radius: 9px;
+    padding: 2rem 1.5rem;
+}
+
+.auth-inner input{
+    margin-bottom: .8rem;
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.auth-inner h3{
+    text-align: center;
+    margin-bottom: .8rem;
+}
+.auth-inner .login_btn{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.auth-inner p{
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.4px;
+    opacity: .8;
+    text-align: center;
+}
+
+.passwordHandle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.passwordHandle a{
+    text-decoration: none;
+    color: rgb(253, 92, 92);
+}
+
+
+
+/* forget password */
+.forgetPass{
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12rem;
+}

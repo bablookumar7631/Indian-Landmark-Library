@@ -1,0 +1,25 @@
+.footer{
+    background-color: #20948B;
+    width: 100%;
+    color: #fff;
+    margin-top: 2rem;
+}
+.footer-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 5% 0 5%;
+}
+.punch-line{
+    margin-top: .3rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: #e1e1e1;
+}
+.copyright{
+    margin-top: 1.5rem;
+    margin-bottom: .3rem;
+    font-size: small;
+    color: rgb(74, 74, 74);
+}

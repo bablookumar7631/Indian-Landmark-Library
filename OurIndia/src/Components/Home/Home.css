@@ -1,0 +1,31 @@
+.homePage{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+}
+.home-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+.home-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-basis: 50%;
+}
+.india-img{
+    max-width: 500px;
+}
+.home-right{
+    font-size: large;
+    margin-left: 2rem;
+}

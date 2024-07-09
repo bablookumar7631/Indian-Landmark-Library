@@ -1,0 +1,44 @@
+.all-state{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.state-head{
+    text-align: center;
+    margin-bottom: .8rem;
+}
+.state-inner{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.state-card{
+    width: 300px;
+    height: auto;
+    border: 1px solid rgb(162, 162, 162);
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    object-fit: cover;
+    object-position: center;
+    background-color: rgb(235, 235, 235);
+    color: black;
+}
+.state-card:hover >.state-img{
+    transform: scale(1.5);
+}
+.state-img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+    width: 300px;
+    height: 200px;
+}
+

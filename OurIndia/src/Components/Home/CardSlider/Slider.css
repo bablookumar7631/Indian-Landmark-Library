@@ -1,0 +1,65 @@
+.slide-card{
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.slide-card p{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 27px;
+    color: rgb(85, 85, 85);
+    font-weight: 700;
+}
+.slider-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    animation: slide-animation 35s linear infinite;
+}
+.slider-inner:hover{
+    animation-play-state: paused;
+}
+
+@keyframes slide-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-70%); 
+    }
+}
+
+.card-img{
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    object-position: center;
+    transition: 1s;
+}
+.card-img:hover{
+    transform: scale(1.05);
+}
+
+
+/* Gradient shadow */
+.slide-card::before,
+.slide-card::after {
+    background: linear-gradient(to right, rgba(255,255,255) 0%, rgba(255,255,255,0) 100%);
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    z-index: 2;
+}
+.slide-card::before {
+    left: 0;
+    top: 0;
+}
+.slide-card::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
